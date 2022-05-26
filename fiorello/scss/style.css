@@ -321,11 +321,31 @@
   margin-bottom: 100px;
 }
 
+.joinUs {
+  height: 500px;
+  text-align: center;
+  background-image: url("../images/h3-background-img.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.joinUs .col-md-6 {
+  padding-top: 10%;
+}
+
+.joinUs .col-md-6 h4 {
+  color: #fefaf3;
+  margin-bottom: 30px;
+}
+
+.joinUs .col-md-6 .input-group {
+  height: 50px;
+}
+
 .blog {
   text-align: center;
   padding: 100px;
-  background-color: #f1f1f1;
-  margin-top: 100px;
+  background-color: #f5f0f0;
 }
 
 .blog .txt-div {
@@ -369,5 +389,50 @@
 
 .blog .flower-imgs .img .date small {
   margin: 0 auto;
+}
+
+.florists-carousel .carousel {
+  background-color: white;
+}
+
+.florists-carousel .carousel .img-carousel-own .img {
+  margin: 0 auto;
+}
+
+.florists-carousel .carousel .img-carousel-own .img img {
+  width: 100px;
+  height: 100px;
+}
+
+.florists-carousel .carousel .img-carousel-own .txt {
+  color: black;
+  text-align: center;
+}
+
+.footer-top {
+  padding-top: 80px;
+  background-color: #fefaf3;
+}
+
+.footer-top ul {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-top ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-top ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-top .footer-end ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */

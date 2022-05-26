@@ -273,11 +273,29 @@
     }
 }
 
+.joinUs {
+    height: 500px;
+    text-align: center;
+    background-image: url("../images/h3-background-img.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    .col-md-6 {
+        padding-top: 10%;
+        h4 {
+            color: #fefaf3;
+            margin-bottom: 30px;
+        }
+        .input-group {
+            height: 50px;
+        }
+    }
+}
+
 .blog {
     text-align: center;
     padding: 100px;
-    background-color: rgb(241, 241, 241);
-    margin-top: 100px;
+    background-color: rgb(245, 240, 240);
+
     .txt-div {
         width: 600px;
         margin-top: 100px;
@@ -297,7 +315,7 @@
             position: relative;
             .date {
                 width: 100px;
-          
+
                 background-color: white;
                 color: black;
                 position: absolute;
@@ -306,12 +324,54 @@
                 z-index: 1;
                 text-align: center;
                 padding: 5px;
-                small{
+                small {
                     margin: 0 auto;
-                 
                 }
             }
         }
-        
+    }
+}
+
+.florists-carousel {
+    .carousel {
+        background-color: white;
+        .img-carousel-own {
+            .img {
+                margin: 0 auto;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .txt {
+                color: black;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.footer-top {
+    padding-top: 80px;
+    background-color: #fefaf3;
+    ul { 
+        text-decoration: none;
+        font-size: 13px;
+        li {
+            list-style: none;
+            padding-bottom: 10px;
+            a {
+                color: grey;
+                text-decoration: none;
+            }
+        }
+    }
+    .footer-end {
+        ul {
+            display: flex;
+
+            font-size: 13px;
+        }
     }
 }
